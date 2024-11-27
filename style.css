@@ -506,12 +506,12 @@ section h2 {
 }
 
 .about-us {
-    background: linear-gradient(135deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1));
+    background: linear-gradient(135deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3));
     backdrop-filter: blur(8px);
     -webkit-backdrop-filter: blur(8px);
     border-radius: 20px;
     border: 1px solid rgba(255, 255, 255, 0.18);
-    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    box-shadow: 0 0px 32px 0 rgba(0, 0, 0, 0.5);
     padding: 5em;
 }
 
@@ -526,6 +526,9 @@ section h2 {
 
 .home-icon-about {
     background-color: #E5B64C;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     width: 30px;
     height: 30px;
     border-radius: 100%;
@@ -533,7 +536,7 @@ section h2 {
 
 .bxs-book-bookmark {
     color: #150603;
-    font-size: 1.7em;
+    font-size: 1.5em;
 }
 
 /*--------CARDÁPIO--------*/
