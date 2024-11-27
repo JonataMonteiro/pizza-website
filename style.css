@@ -825,24 +825,31 @@ section h2 {
 }
 .combofamilia{
     background-color: rgba(0, 0, 0, 0.2);
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.8);
-    padding: 0 2em;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+    padding: 0 1em;
     padding-bottom: 2em;
     border-radius: 30px;
     text-align: center;
-    
+    transition: all 0.3s ease;
 }
 .combofamilia img{
     border-radius: 30px;
     margin-top: 1em;
 }
+.combofamilia:hover{
+    transform: translateY(-5px);
+}
 .desconto{
     background-color: rgba(0, 0, 0, 0.2);
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.8);
-    padding: 0 2em;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+    padding: 0 1em;
     padding-bottom: 2em;
     border-radius: 30px;
     text-align: center;
+    transition: all 0.3s ease;
+}
+.desconto:hover{
+    transform: translateY(-5px);
 }
 .desconto img{
     border-radius: 30px;
