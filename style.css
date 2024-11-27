@@ -784,6 +784,24 @@ section h2 {
     background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6))
 }
 
+.container-modal:target {
+    visibility: visible;
+    opacity: 1;
+}
+
+.modal-fechar {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: #F1E6D2;
+    text-decoration: none;
+    font-size: 2em;
+}
+
+.modal-fechar:hover {
+    color: #c51212;
+}
+
 .modal-content {
     border-radius: 30px;
     position: relative;
@@ -872,23 +890,7 @@ section h2 {
     color: #F1E6D2;
 }
 
-.container-modal:target {
-    visibility: visible;
-    opacity: 1;
-}
 
-.modal-fechar {
-    position: absolute;
-    top: 10px;
-    right: 10px;
-    color: #F1E6D2;
-    text-decoration: none;
-    font-size: 2em;
-}
-
-.modal-fechar:hover {
-    color: #c51212;
-}
 /*--------PEDIDOS--------*/
 .head-pedido {
     background:linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(https://images.pexels.com/photos/1788852/pexels-photo-1788852.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
@@ -1087,4 +1089,3 @@ h1 {
     height: 100%;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.8);
 }
-
