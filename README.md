@@ -14,7 +14,3 @@ João Eric: Participacao apenas na atividade de html (Dificuldades com o css pel
 
 
 OBS: pagina de promoções foi removida e inserida dentro de um modal na página de cardápio.
-
-Comentario Jonata
-
-Meu commit Joao
